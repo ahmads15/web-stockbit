@@ -1,6 +1,6 @@
 How to prepared for running automation :
 1. Install node.js and chrome version 93
-2. Git clone 
+2. Git clone n npm install
 3. Run Automation : npm run e2e-test features\login.feature -- --tags "@s1"
    note : if u want run another scenario just replace @ on tags ""
 4. Folder Structure :
