@@ -1,0 +1,63 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "homepage-page;user-verify-ui-homepage",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "User verify UI homepage",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User open browser stockbit",
+            "match": {
+              "location": "step-definitions\\homepage.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "User can see page homepage",
+            "match": {
+              "location": "step-definitions\\homepage.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2847000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@s1",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "homepage-page",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Homepage page",
+    "tags": [],
+    "uri": "features\\homepage.feature"
+  }
+]
